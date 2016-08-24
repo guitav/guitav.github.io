@@ -48,23 +48,114 @@
 
      <!-- <div class="starter-template"> -->
       <div class="row"> 
-      	<span class="top" style="position: absolute; padding-top: 10px;" ><h1> Guita Vahdatinia</h1></span>	 
+      	<span class="top" style="position: absolute; padding-top: 10px; padding-bottom: 100px;" ><h1> Vim Commands</h1></span>	 
       </div>
   
 		<!--Name and Information Heading-->
 		
 		<div class = "info">
-		<div class="row" style="padding-top: 150px" >
-			 <div class="col-xs-6 col-md-4">
-			 	<img src="photos/IMG_2323.png" class="img-responsive" alt="Responsive image"  style="padding-bottom: 100px">
-			 	</div>
-		  <div class="col-xs-12 col-sm-6 col-md-8"   >
-		  <h3>About Me</h3> <p>A little information about myself A little information about myself A little information about myself A little information about myself </p></div>
-		 
-		</div>
-		</div>
 		
-	
+		
+		
+	<div style="padding-top: 125px; padding-left: 50px; padding-right: 50px;">
+	<table class="table table-striped" >
+	    <thead> <h4> Delete </h4>
+	      <tr>
+	        <th>Command</th>
+	        <th>Action</th>
+	        
+	      </tr>
+	    </thead>
+	    <tbody>
+	      <tr>
+	        <td>x</td>
+	        <td>Delete current character</td>
+	        
+	      </tr>
+	      <tr>
+	        <td>dw</td>
+	        <td>Delete current word</td>
+	        
+	      </tr>
+	      <tr>
+	        <td>dd</td>
+	        <td>Delete current line</td>
+	       
+	      </tr>
+	      <tr>
+	        <td>5dd</td>
+	        <td>Delete five lines (place any number before dd)</td>
+	       
+	      </tr>
+	      <tr>
+	        <td>d$</td>
+	        <td>Delete to end of line</td>
+	       
+	      </tr>
+	      <tr>
+	        <td>d0</td>
+	        <td>Delete to beginning of line</td>
+	       
+	      </tr>
+	      <tr>
+	        <td>:1,.d</td>
+	        <td>Delete to beginning of file</td>
+	       
+	      </tr>
+	      <tr>
+	        <td>:.,$d</td>
+	        <td>Delete to end of file</td>
+	       
+	      </tr>
+	      <tr>
+	        <td>:1,$d</td>
+	        <td>Delete entire file</td>
+	       
+	      </tr>
+	    </tbody>
+	  </table>
+	  
+	  
+	  <table class="table table-striped" >
+	      <thead> <h4> Miscellaneous </h4>
+	        <tr>
+	          <th>Command</th>
+	          <th>Action</th>
+	          
+	        </tr>
+	      </thead>
+	      <tbody>
+	        <tr>
+	          <td>:set tabstop=4</td>
+	          <td>Sets tab length to 4</td>
+	          
+	        </tr>
+	        <tr>
+	          <td>:set formatoptions-=cro</td>
+	          <td>Disables auto commenting</td>
+	          
+	        </tr>
+	        <tr>
+	          <td>sed -n 22,44p filename > newfile</td>
+	          <td>Extracts from line 22 to 44 and inserts into new file</td>
+	         
+	        </tr>
+	        <tr>
+	          <td>scp gvahdati@unix.ucsc.edu:/afs/cats.ucsc.edu/users/m/gvahdati/* .</td>
+	          <td>Copying files from remote system</td>
+	         
+	        </tr>
+	        <tr>
+	          <td>1,122s/^/\/\/</td>
+	          <td>Insert // from lines 1 to 122</td>
+	         
+	        </tr>
+	      </tbody>
+	    </table>
+	    
+	</div>
+	</div>
+	</div>
 		
     </div><!-- /.container -->
 
@@ -72,6 +163,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    
+          
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="bootstrap.js" charset="utf-8"></script>
     <script src="script.js" charset="utf-8" ></script>
