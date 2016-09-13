@@ -1,0 +1,4 @@
+Things to Change:
+1. Index.html page for mobile/tablet -- centering issues with image: use media block or use diff div sm class for tablet
+2. For photo gallery to open and view an image larger than viewing size -- (open put in width size)
+3. Index.html change the title sizing so it does not compress during mobile viewing
