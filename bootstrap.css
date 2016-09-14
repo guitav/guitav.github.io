@@ -1715,9 +1715,15 @@ pre code {
  padding-bottom: 50px;
   
 }
+
 .col-xs-12photo {
   width: 50%;
   padding-left: 10px;
+}
+.col-xs-11photo {
+  margin:  auto;
+
+  width: 50%;
 }
 .col-xs-11 {
   width: 91.66666667%;
@@ -7625,4 +7631,8 @@ bio, .bio{
 	color: inherit;
 	font-size: 25px;
 	-webkit-text-size-adjust: 75%;
+}
+.projectcenter projectcenter{
+	text-align: center;
+	margin: 50%;
 }
